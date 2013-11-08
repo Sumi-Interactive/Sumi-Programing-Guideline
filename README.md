@@ -116,9 +116,7 @@ static NSMutableArray *__visible_alerts;
 
 ## 代码格式化风格
 
-1. K&R 代码风格。
-
-	```
+```
 int main(int argc, char *argv[])
 {
     ...
@@ -136,16 +134,15 @@ int main(int argc, char *argv[])
     finalthing();
     ...
 }
-	```
+```
 
+1. K&R 代码风格。
 2. 不要省略 `{}`。
 3. 中括号和小括号前后不要留空格 `[]()`。
-4. 比较符、等号、冒号、逗号和大括号前后要保留一个空格 `> = : , { }`。
-	> Objective-C的消息参数中的冒号是一个例外，不要空格。
+4. 比较符、等号、冒号、逗号和大括号前后要保留一个空格 `> = : , { }`。Objective-C的消息参数中的冒号是一个例外，不要空格。
 5. `*`,`^` 后不要空格。
 6. 行尾不要留空格。
-7. 用 4 个空格缩进。
-	> 设置 Xcode 的 Tab Size 和 Indent Size 为 4
+7. 用 4 个空格缩进。设置 Xcode 的 Tab Size 和 Indent Size 为 4
 8. 编译器指令不缩进。
 9. 不要垂直对齐。
 10. 方法之间空一行。
