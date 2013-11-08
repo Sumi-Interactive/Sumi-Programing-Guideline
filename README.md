@@ -5,8 +5,8 @@ Sumi Programing Guideline
 
 ### 工程、代码文件、Xcode项目相关文件
 
-使用 Pascal 命名法（大驼峰式命名法）
-	
+* 使用 Pascal 命名法（大驼峰式命名法）
+
 > * MyGreatApp
 > * SIAlertView.h
 > * Settings.storyboard
@@ -52,7 +52,7 @@ Sumi Programing Guideline
 
 ### 类、常量、枚举
 
-使用 Pascal 命名法
+* 使用 Pascal 命名法
 
 `UIViewController`, `UIApplicationDidEnterBackgroundNotification`, `NSDateFormatterLongStyle`
 
@@ -72,7 +72,7 @@ Sumi Programing Guideline
 
 ### 函数
 
-使用 Pascal 命名法
+* 使用 Pascal 命名法
 
 `UIImagePNGRepresentation(image)`, `CGPointMake(x, y)`
 
@@ -97,7 +97,7 @@ static NSMutableArray *__visible_alerts;
 
 #### 常量
 
-使用 Pascal 命名法
+* 使用 Pascal 命名法
 
 `NSUIntegerMax`, `M_PI`
 
@@ -157,7 +157,7 @@ int main(int argc, char *argv[])
 * 用姓名的缩写开头。
 * 用`-`连接小写单词。
 
-> `kc-new-feature`, `vz-fix-dst`
+`kc-new-feature`, `vz-fix-dst`
 
 ### Commit
 
